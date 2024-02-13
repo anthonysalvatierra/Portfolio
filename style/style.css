@@ -3,7 +3,6 @@ body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     background-color: #F0FFF0;
-    background-image: url('images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
