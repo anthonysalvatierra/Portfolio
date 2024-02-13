@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocheAnthony</title>
+    <link rel="shortcut icon" href="favicon/foto perfil.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="/style/style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!------------------------------------------ Navigation ----------------------------------------------->
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top px-5">
+      <div class="container-fluid">
+        <div>
+            <img alt="Anthony_Roche" class="rounded_img rounded-circle me-3" src="/images/hi-removebg-preview.png" />
+            <span class="text-light">ANTHONY ROCHE</span>
+        </div>
+        <ul class="nav navbar-nav ">
+          <li class="nav-item"><a class="nav-link m-3 " href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link m-3" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link m-3" href="#projects">PROJECTS</a></li>
+          <li class="nav-item"><a class="nav-link m-3" href="#contact">CONTACT</a></li>
+        </ul>
+
+        <!---------------------------------------------------- Side Bar For Mobile ---------------------------------------------------->
+        <div class="side">
+          <button class="btn btn-dark border" type="button" data-bs-toggle="offcanvas" data-bs-target="#sideBar" aria-controls="offcanvasRight">
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="sideBar" aria-labelledby="label" style="width: auto;">
+            <div class="offcanvas-body">
+              <a class="nav-link m-3 text-light" href="#home">HOME</a>
+              <a class="nav-link m-3 text-light" href="#about">ABOUT</a>
+              <a class="nav-link m-3 text-light" href="#projects">PROJECTS</a>
+              <a class="nav-link m-3 text-light" href="#contact">CONTACT</a>
+                
+              <div class="offcanvas-footer">
+                <button type="button" class="btn text-light m-3" data-bs-dismiss="offcanvas">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----------------------------------------------------------- End Sidebar -------------------------------------------------------->
+      </div>
+    </nav>
+
+      <!--------------------------------------------- End Navigation ----------------------------------------->
+      
+      <!------------------------------------------------- Section Home ------------------------------------------>
+      <section id="home" class="container-fluid pt-5" style="height: 100vh;">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="row p-5">
+            <div class="col p-5">
+              <h1 class="home_h1 fw-bold">HI! MY NAME'S ANTHONY ROCHE</h1>
+              <p class="home_p mt-5 lh-lg">
+                Focused on the part not visible to the user (Backend), 
+                passionate about technology and application development, 
+                in addition, always willing to give my best, improve my skills
+                and learn new tecnologies.
+              </p>
+              <div class="mt-5 border border-1 shadow rounded card_social">
+                <div class="card" style="background-color: transparent; border:none;">
+                  <div class="card-body" style="border-radius: 5%;">
+                    <a href="https://github.com/anthonysalvatierra" target="_blank">
+                      <img src="/images/signo-de-github.png" alt="GitHub" class="icon_social" >
+                    </a>
+                    <a href="https://www.linkedin.com/in/anthony-roche-dev-trainee/" target="_blank">
+                      <img src="/images/logotipo-de-linkedin.png" alt="Linkedin" class="icon_social" >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------- Section About ------------------------------------------>
+      <section id="about" class="container-fluid" style="padding:100px 20px; height: auto;">
+        <div class="container">
+          <div class="row">
+            <h1 class="fw-bold about_h1">About</h1>
+            <p class="about_p lh-base mt-3">
+              In this section you will see a short description about me and my skills.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <div class="card m-3 opacity">
+                <div class="card-header">
+                  <h4 class="card-title ps-4 pt-3">Description</h4>
+                </div>
+                <div class="card-body p-4">
+                  <p class="card-text fw-bold lh-lg">
+                    As a student I have learned to solve problems on my own 
+                    with the necessary tools to do so, in addition, research 
+                    and analysis skills of a given situation or problem.
+                  </p>
+                  <p class="card-text fw-bold lh-lg">
+                    As a self-taught person, I learned to program with the Java 
+                    programming language and use the technologies I needed to achieve 
+                    the goal I set for myself, technology such as: HTML, CSS, Bootstrap, 
+                    SQL Server, among others, which have allowed me to put the knowledge into practice
+                    and gain personal experience in it.
+                  </p>
+                  <p class="card-text fw-bold lh-lg">
+                    Finally, my English skills are at an intermediate level and I am still learning. 
+                    I would like the opportunity to learn and grow professionally. I am an open-minded 
+                    person and I am always willing to learn any other technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card shadow m-3 opacity">
+                <div class="card-header">
+                  <h4 class="card-title ps-4 pt-3">Skills</h4>
+                </div>
+                <div class="card-body">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <img alt="java" title="Java" src="/images/java.png" class="img_logo">
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="JavaScript" src="/images/js.png" class="img_logo">
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="Python" src="/images/piton.png" class=img_logo>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <img alt="java" title="HTML 5" src="/images/html-5.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="CSS" src="/images/css.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="Bootstrap" src="/images/bootstrap.png" class=img_logo>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <img alt="java" title="Spring Framework" src="/images/spring.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="SQL Server" src="/images/servidor-sql.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="My SQL" src="/images/mysql.png" class=img_logo>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <img alt="java" title="IntelliJ IDEA" src="/images/intellij.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="Apache Netbeans" src="/images/netbeans.png" class=img_logo>
+                      </div>
+                      <div class="col">
+                        <img alt="java" title="Visual Studio Code" src="/images/code.png" class=img_logo>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------- Section Projects ------------------------------------------>
+      <section id="projects" class="container-fluid" style="padding:100px 20px; height: auto;">
+        <div class="container">
+          <div class="row">
+            <h1 class="fw-bold project_h1">Projects</h1>
+            <p class="lh-lg mt-3 project_p fw-bold">
+              View some personal projects, you can see the
+              technologies with which I have made them and their code.
+            </p>
+          </div>
+        </div>
+
+        <!------------------------------------------------ First Project ---------------------------------------------------------------->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 shadow" style="border: none; background-color: #e8f5ff;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <a href="https://github.com/anthonysalvatierra/NotesApp" target="_blank" class="link">
+                      <img src="/images/noteapp-register.png" class="img-fluid rounded-start img-project" alt="note-app" style="height: 100%;">
+                      <h5 class="h5-link fw-bold text-dark">See Code</h5>
+                    </a>
+                    
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold" style="letter-spacing: 1px;">NoteApp</h5>
+                      <p class="card-text p-card lh-base text-dark">
+                        App for notes where you can categorize, delete and edit them, 
+                        in addition to filtering them by categories and archiving them.
+                        Because it has a login and registration system, it was a challenge to 
+                        add security and authentication, on the other hand, to encrypt the passwords with BCrypt,
+                        but it was a challenge that I was able to overcome and learn.
+                      </p>
+                      <p class="card-text p-card lh-base text-dark">
+                        Another important challenge 
+                        was the frontend, since I did not manage this part of the website very well but with a lot of
+                        dedication and research I managed to do it.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <span class="pills fw-bold text-light">Java</span> <span class="pills fw-bold text-light">Spring MVC</span> <span class="pills fw-bold text-light">Spring Data Jpa</span>
+                      <span class="pills fw-bold text-light">Spring Security</span> <span class="pills fw-bold text-light">HTML</span> <span class="pills fw-bold text-light">CSS</span>
+                      <span class="pills fw-bold text-light">Thymeleaf</span> <span class="pills fw-bold text-light">Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------------------ Second Project ---------------------------------------------------------------->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 shadow" style="border: none; background-color: #e8f5ff;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <a href="https://github.com/anthonysalvatierra/AppClient" target="_blank" class="link">
+                      <img src="/images/app-client-code.jpg" class="img-fluid rounded-start img-project" alt="app-client" style="height: 100%;">
+                      <h5 class="h5-link fw-bold text-dark">See Code</h5>
+                    </a>
+                    
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold" style="letter-spacing: 1px;">AppClient</h5>
+                      <p class="card-text p-card lh-base text-dark">
+                        It is a Rest API on purchases and shipping that, in addition 
+                        to managing customer data, also manages the products and the 
+                        customer's membership, that is, depending on the membership, 
+                        your shipment will arrive in a certain time.
+                      </p>
+                      <p class="card-text p-card lh-base text-dark">
+                        As the project is being built, present challenges such as 
+                        validations by the application, since the client can renew 
+                        their membership with a limited time and also depending on the membership range, 
+                        delivery takes a little longer.
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <span class="pills fw-bold text-light">Java</span> <span class="pills fw-bold text-light">Spring</span> <span class="pills fw-bold text-light">Spring Data Jpa</span>
+                      <span class="pills fw-bold text-light">H2 Database</span> <span class="pills fw-bold text-light">Maven</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------------------------------------------ Third Project ---------------------------------------------------------------->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <div class="card mb-3 shadow" style="border: none; background-color: #e8f5ff;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <a href="https://github.com/anthonysalvatierra/SchoolRegister" target="_blank" class="link">
+                      <img src="/images/under-construction.png" class="img-fluid rounded-start img-project" alt="app-client" style="height: 100%;">
+                      <h5 class="h5-link fw-bold text-dark">See Code</h5>
+                    </a>
+                    
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold" style="letter-spacing: 1px;">School Register</h5>
+                      <p class="card-text p-card lh-base text-dark">
+                        Under Construction
+                      </p>
+                      <p class="card-text p-card lh-base text-dark">
+                        
+                      </p>
+                    </div>
+                    <div class="card-footer">
+                      <span class="pills fw-bold text-light">Java</span> <span class="pills fw-bold text-light">Spring Data Jpa</span>
+                      <span class="pills fw-bold text-light">H2 Database</span> <span class="pills fw-bold text-light">Spring MCV</span>
+                      <span class="pills fw-bold text-light">Spring Security</span>
+                      <span class="pills fw-bold text-light">HTML</span> <span class="pills fw-bold text-light">CSS</span>
+                      <span class="pills fw-bold text-light">Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------------------------------- Section Contact ------------------------------------------>
+      <section id="contact" class="container-fluid" style="padding:100px 20px; height: auto;">
+        <div class="container">
+          <div class="row">
+            <h1 class="fw-bold contact_h1 text-light">Contact Me</h1>
+            <p class="text-light mt-3 contact_p fw-bold">
+              Send me an email through this form.
+            </p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="card shadow-lg card-contact">
+            <div class="card-body">
+              <form action="https://formsubmit.co/rocheanthony02@gmail.com" method="POST" class="row g-3 was-validated" novalidate>
+                
+                <input type="hidden" name="_subject" value="Message From Portfolio">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/page.html?#contact">
+                
+                <div class="col-12 form-floating mb-3 mt-3 position-relative has-validation">
+                  <input type="text" name="name" class="form-control input" id="name" placeholder="Enter Your Name" value="name" required>
+                  <label for="name">Name</label>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="col-12 form-floating mb-3 position-relative">
+                  <input type="email" name="email" class="form-control input" id="floatingEmail" value="example@mail.com" placeholder="Email" required>
+                  <label for="floatingEmail">Email</label>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="col-12 form-floating position-relative">
+                  <textarea class="form-control mb-3 input-area" name="content" placeholder="Leave a comment here" value="" id="floatingTextarea2" required style="height: 300px;">
+                    Hi! We want to interview you for a job.
+                  </textarea>
+                  <label for="floatingTextarea2">Comments</label>
+                  <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="d-flex">
+                  <button class="btn btn-primary me-3" type="submit" style="width: 50%;" id="sent">Submit</button>
+                  <a class="btn btn-success ms-3" href="/files/Anthony_Roche_CV.pdf" target="_blank" style="width: 50%;">Check My CV</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!--------------------------------- Toast ----------------------------------------------->
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+          <div class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <strong class="me-auto">Excelent !</strong>
+              <button type="button" class="btn-close me-2" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              <p class="text-primary fw-bold">
+                Message Sent. Thank you very much.
+              </p>  
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <script src="/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0FFF0;
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    letter-spacing: 2px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav ul {
+    font-size: 15px;
+}
+
+.side {
+    display: none;
+}
+
+.rounded_img{
+    width: 70px;
+    height: 70px;
+}
+
+.home_h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 8vh;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.home_p {
+    letter-spacing: 1px;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.icon_social {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.icon_social:hover {
+    background-color: #cbd0d4;
+}
+
+.card_social {
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    background-color: #F5FFFA;
+}
+
+.about_h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about_p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 3vh;
+}
+
+.opacity {
+    background-color: transparent;
+    border: none;
+    color: black;
+    width: auto;
+}
+
+.img_logo {
+    transition-duration: 0.5s;
+    height: 60px;
+    width: 60px;
+    margin: 9px;
+    padding: 3px;
+}
+
+.img_logo:hover {
+    height: 80px;
+    width: 80px;
+}
+
+.project_h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;;
+
+}
+
+.project_p {
+    text-align: center;
+    font-size: 3vh;
+    letter-spacing: 1px;
+
+}
+
+.p-card{
+    letter-spacing: 1px;
+}
+
+.pills {
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #2b2b2b;
+    letter-spacing: 1px;
+}
+
+.pills:hover {
+    cursor: pointer;
+    background-color: #424242;
+}
+
+.link {
+    position: relative;
+}
+
+.h5-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    letter-spacing: 1px;
+    color: #f4f1bb;
+}
+
+.link:hover .h5-link {
+    opacity: 1;
+}
+
+.img-project:hover {
+    opacity: .3;
+}
+
+.contact_h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;;
+}
+
+.contact_p {
+    text-align: center;
+    font-size: 3vh;
+    letter-spacing: 1px;
+}
+
+.input {
+    background-color: #e8f5ff;
+}
+
+.input-area {
+    resize: none; 
+    background-color: #e8f5ff;
+}
+
+.card-contact {
+    width: 50%; 
+    background-color: #e8f5ff; 
+    opacity: .9;
+}
+
+@media only screen and (max-width: 1200px) {
+    div.card_social{
+        width: auto;
+        background-color: transparent;
+        border: none;
+    }
+
+    img.icon_social{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+    h1.home_h1 {
+        font-size: 4vh;
+    }
+
+    p.home_p{
+        font-size: small;
+    }
+
+    ul.nav {
+        display: none;
+    }
+
+    div.side {
+        display: block;
+    }
+
+    span.text-light {
+        font-size: 2vh;
+    }
+
+    img.rounded_img{
+        width: 40px;
+        height: 40px;
+    }
+
+    [class*="col-6"] {
+        width: 100%;
+    }
+
+    p.card-text {
+        text-align: center;
+    }
+
+    h4.card-title {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+
+    img.rounded_img{
+        width: 25px;
+        height: 25px;
+    }
+
+    img.me-3{
+        margin-right: 1px;
+    }
+
+    span.text-light {
+        font-size: 1.2vh;
+    }
+
+    img.img_logo{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media only screen and (max-width: 500px){
+
+    div.card-contact {
+        width: auto;
+    }
+
+}
+
+@media only screen and (max-width: 365px){
+
+    img.img_logo{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 385px){
+
+    div.card_social {
+        display: none;
+    }
+
+}
